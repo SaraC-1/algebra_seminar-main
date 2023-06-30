@@ -1,0 +1,14 @@
+.header {
+    background-color: #000000;
+    overflow: visible;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: space-around;
+    & img {
+      width: 5rem;
+      object-fit: contain;
+    }
+  }

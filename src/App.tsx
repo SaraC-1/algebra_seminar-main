@@ -2,8 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import './styles/styles.scss';
 import pikachur from "./assets/pikachu-right.png";
 import pikachul from "./assets/pikachu-left.png";
-import Messages from './components/Messages';
-import Input from './components/Input';
+import Messages from './components/messages';
+import Input from './components/input';
 
 declare global {
   interface Window {
